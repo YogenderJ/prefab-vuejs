@@ -23,7 +23,9 @@ module.exports = {
         template: './src/index.html'
     })],
     devServer: {
-        historyApiFallback: true
+    	host: '0.0.0.0',
+    	hot: true,
+    	disableHostCheck: true,
     },
     externals: {
         // global app config object
