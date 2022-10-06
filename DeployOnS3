@@ -1,0 +1,7 @@
+To Deploy static vuejs website on s3 
+
+
+a. Create S3 bucket.
+b. Enable static web hosting in bucket properties.
+d. Un-Block all public access.
+c. Add S3 bucket policy to bucket permissions.
