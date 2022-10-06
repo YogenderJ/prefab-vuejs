@@ -8,9 +8,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the Vue.js code
+      - echo Compiling the Node.js code
       - npm run build
 artifacts:
   files:
     - '**/*'
-  base-directory: 'dist'
